@@ -75,6 +75,7 @@
       padding: 1.5rem;
       border-radius: 8px;
       margin-top: 2rem;
+      margin-bottom: 30px;
     }
     .depoimento {
       margin-bottom: 1rem;
@@ -97,39 +98,9 @@
       object-fit: cover;
       border: 4px solid #e8f0ff;
     }
-    .form-contato {
-      margin-top: 2rem;
-    }
-    .form-group {
-      margin-bottom: 1rem;
-    }
-    .form-group label {
-      display: block;
-      margin-bottom: 0.5rem;
-      font-weight: bold;
-    }
-    .form-group input, 
-    .form-group textarea {
-      width: 100%;
-      padding: 0.8rem;
-      border: 1px solid #ddd;
-      border-radius: 4px;
-      font-family: Arial, sans-serif;
-    }
-    .form-group textarea {
-      height: 120px;
-    }
-    .btn-enviar {
-      background-color: #004080;
-      color: white;
-      border: none;
-      padding: 1rem 2rem;
-      border-radius: 8px;
-      cursor: pointer;
-      font-weight: bold;
-    }
-    .btn-enviar:hover {
-      background-color: #002e5c;
+    .cta-whatsapp a:hover {
+      background: #128C7E !important;
+      transform: scale(1.02);
     }
     @media (max-width: 768px) {
       .sobre {
@@ -185,30 +156,24 @@
     </section>
 
     <div class="cta-whatsapp" style="text-align: center; margin: 40px 0;">
-  <h3 style="color: #004080;">Entre em contato agora mesmo</h3>
-  
-  <a href="https://wa.me/556791493428?text=Olá%20Dr.%20Alexandre,%20vim%20pelo%20site%20e%20gostaria%20de%20:*%0A- Agendar%20uma%20consulta%0A- Tirar%20uma%20dúvida%0A- Saber%20sobre%20valores%0A%0A*Meu nome*%20é%20____________"
-     target="_blank"
-     style="display: inline-block; background: #25D366; color: white; padding: 15px 25px; border-radius: 50px; text-decoration: none; font-weight: bold; font-size: 18px; margin-top: 15px;">
-     <img src="https://upload.wikimedia.org/wikipedia/commons/6/6b/WhatsApp.svg" width="24" style="vertical-align: middle;"> 
-     Fale pelo WhatsApp
-  </a>
-  
-  <p style="margin-top: 10px; font-size: 14px; color: #666;">Respondemos em até 24 horas</p>
-</div>
+      <h3 style="color: #004080;">Entre em contato agora mesmo</h3>
+      
+      <a href="https://wa.me/556791493428?text=Olá,%20Dr.%20Alexandre!%0AVi%20o%20anúncio%20e%20me%20interessei.%0AQuero%20saber%20mais%20sobre%20o%20produto%20para:%0A%0A-%20Melhorar%20meu%20desempenho%0A-%20Combater%20a%20ejaculação%20precoce%0A-%20Tratar%20a%20disfunção%20erétil%0A%0A*Meu nome*%20é:%20%0A*Tenho*%20anos."
+         target="_blank"
+         style="display: inline-block; background: #25D366; color: white; padding: 15px 25px; border-radius: 50px; text-decoration: none; font-weight: bold; font-size: 18px; margin-top: 15px; transition: all 0.3s;">
+         <img src="https://upload.wikimedia.org/wikipedia/commons/6/6b/WhatsApp.svg" width="24" style="vertical-align: middle;"> 
+         Fale pelo WhatsApp
+      </a>
+      
+      <p style="margin-top: 10px; font-size: 14px; color: #666;">Respondemos em até 24 horas</p>
+    </div>
 
+  </div>
 
   <footer>
-    <p>E-mail: clinica.dralexandree@gmail.com · Telefone: (67) 9149-3428</p>
+    <p>E-mail: clinica.dralexandree@gmail.com · Telefone: <a href="tel:556791493428" style="color: #004080; text-decoration: none;">(67) 9149-3428 📞</a></p>
     <p>Atendimento online para todo o Brasil</p>
   </footer>
 
-  <script>
-    document.getElementById('contatoForm').addEventListener('submit', function(e) {
-      e.preventDefault();
-      alert('Mensagem enviada com sucesso! Entraremos em contato em breve.');
-      this.reset();
-    });
-  </script>
 </body>
 </html>
